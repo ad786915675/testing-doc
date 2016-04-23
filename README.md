@@ -23,5 +23,7 @@ mvn dependency:analyze
 mvn clean install -Dmaven.wagon.http.pool=true
 # This speci es the maximum number of total HTTP connections that can be created against all the destinations/repositories
 mvn clean install -Dmaven.wagon.httpconnectionManager.maxTotal=40
+# Validates whether the server's TLS certi cate is signed by a trusted Certi cate Authority (CA)
+mvn clean install -Dmaven.wagon.http.ssl.insecure=false
 
 ```
