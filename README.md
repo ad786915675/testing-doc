@@ -16,4 +16,6 @@ mvn dependency:tree
 mvn help:system
 # Viewing the dependency classpath
 mvn dependency:build-classpath
+# Analyze
+mvn dependency:analyze
 ```
