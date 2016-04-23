@@ -10,5 +10,7 @@ mvn clean install
 mvn clean install -Dmaven.surefire.debug
 # Enable debug level logging
 mvn clean install –X
+# Building dependency tree
+mvn dependency:tree
 
 ```
