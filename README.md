@@ -6,4 +6,9 @@
 # Commands
 ```
 mvn clean install
+# Remote debugging
+mvn clean install -Dmaven.surefire.debug
+# Enable debug level logging
+mvn clean install –X
+
 ```
