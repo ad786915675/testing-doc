@@ -12,5 +12,8 @@ mvn clean install -Dmaven.surefire.debug
 mvn clean install –X
 # Building dependency tree
 mvn dependency:tree
-
+# Viewing all environment variables and system properties
+mvn help:system
+# Viewing the dependency classpath
+mvn dependency:build-classpath
 ```
