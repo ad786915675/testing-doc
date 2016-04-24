@@ -27,6 +27,6 @@ mvn clean install -Dmaven.wagon.httpconnectionManager.maxTotal=40
 mvn clean install -Dmaven.wagon.http.ssl.insecure=false
 # Check whether the hostname of the endpoint matches the CN (Common Name) value of its certi cate
 mvn clean install -Dmaven.wagon.http.ssl.allowall=false
-# Maven will check whether the expiration date of the certi cate is valid
-
+# Use the mvn deploy command to deploy the artifacts into the con gured repository
+mvn deploy
 ```
