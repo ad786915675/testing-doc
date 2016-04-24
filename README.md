@@ -30,3 +30,10 @@ mvn clean install -Dmaven.wagon.http.ssl.allowall=false
 # Use the mvn deploy command to deploy the artifacts into the con gured repository
 mvn deploy
 ```
+
+# Standard lifecycles in Maven
+```
+mvn help:describe -Dcmd=deploy
+mvn help:describe -Dcmd=site
+```
+
