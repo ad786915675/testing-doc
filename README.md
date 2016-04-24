@@ -25,5 +25,8 @@ mvn clean install -Dmaven.wagon.http.pool=true
 mvn clean install -Dmaven.wagon.httpconnectionManager.maxTotal=40
 # Validates whether the server's TLS certi cate is signed by a trusted Certi cate Authority (CA)
 mvn clean install -Dmaven.wagon.http.ssl.insecure=false
+# Check whether the hostname of the endpoint matches the CN (Common Name) value of its certi cate
+mvn clean install -Dmaven.wagon.http.ssl.allowall=false
+# Maven will check whether the expiration date of the certi cate is valid
 
 ```
