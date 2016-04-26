@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<changelog xmlns="http://www.omnigroup.com/namespace/OmniPlan/v2">
+  <version>2.1</version>
+  <task-change-set user="noprom" date="2016-04-26T02:19:47.616Z" timestamp="2016-04-26T02:19:47.616Z">
+    <change idref="t1" attribute="title" type="string" from="Task 1" to="环境部署" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="noprom" date="2016-04-26T02:20:35.391Z" timestamp="2016-04-26T02:20:35.391Z">
+    <change idref="t1" attribute="title" type="string" from="环境部署" to="环境部署以及熟悉项目" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="noprom" date="2016-04-26T02:20:58.176Z" timestamp="2016-04-26T02:20:58.176Z">
+    <change idref="t3" to="t-1" to-position="1" resolved="yes">
+      <change idref="t3" attribute="title" type="string" to="Task 2"/>
+    </change>
+    <change idref="t2" to="t-1" to-position="2" resolved="yes">
+      <change idref="t2" attribute="title" type="string" to="Task 1"/>
+    </change>
+    <change idref="t1" attribute="notesAllowingNil" type="textdata" to="e1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYxNDA0XGNvY29hc3VicnRmNDYwCntcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBIZWx2ZXRpY2FOZXVlO1xmMVxmbmlsXGZjaGFyc2V0MTM0IFBpbmdGYW5nU0MtUmVndWxhcjt9CntcY29sb3J0Ymw7XHJlZDI1NVxncmVlbjI1NVxibHVlMjU1O1xyZWQ4NVxncmVlbjg1XGJsdWU4NTt9ClxwYXJkXHR4NTYwXHR4MTEyMFx0eDE2ODBcdHgyMjQwXHR4MjgwMFx0eDMzNjBcdHgzOTIwXHR4NDQ4MFx0eDUwNDBcdHg1NjAwXHR4NjE2MFx0eDY3MjBccGFyZGlybmF0dXJhbFxwYXJ0aWdodGVuZmFjdG9yMAoKXGYwXGZzMjQgXGNmMiBcdXAwIFxub3N1cGVyc3ViIFx1bG5vbmUgXG9ibGlxdWVuZXNzMCBcZXhwYW5zaW9uMCAxLgpcZjEgXCdjOFwnYWJcJ2NjXCdlNVwnYjJcJ2UyXCdjYVwnZDRcJ2IzXCdjOVwnZDRcJ2IxXCdiNFwnZWVcJ2JkXCdhOFwnYmFcJ2MzXCdiNFwnZmRcJ2IyXCdlMlwnY2ZcJ2VlXCdjNFwnYmZcJ2I1XCdjNFwnYmJcJ2I3XCdiZVwnYjMKXGYwIFwKMi4KXGYxIFwnY2FcJ2VjXCdjZlwnYTRcJ2I0XCdmZFwnYjJcJ2UyXCdjZlwnZWVcJ2M0XCdiZlwnYjVcJ2M0XCdiOFwnZjdcJ2I4XCdmNlwnYjlcJ2E2XCdjNFwnZGNcJ2M0XCdhM1wnYmZcJ2U5fQ==" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="noprom" date="2016-04-26T02:21:00.663Z" timestamp="2016-04-26T02:21:00.663Z">
+    <change idref="t1" attribute="notesAllowingNil" type="textdata" from="e1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYxNDA0XGNvY29hc3VicnRmNDYwCntcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBIZWx2ZXRpY2FOZXVlO1xmMVxmbmlsXGZjaGFyc2V0MTM0IFBpbmdGYW5nU0MtUmVndWxhcjt9CntcY29sb3J0Ymw7XHJlZDI1NVxncmVlbjI1NVxibHVlMjU1O1xyZWQ4NVxncmVlbjg1XGJsdWU4NTt9ClxwYXJkXHR4NTYwXHR4MTEyMFx0eDE2ODBcdHgyMjQwXHR4MjgwMFx0eDMzNjBcdHgzOTIwXHR4NDQ4MFx0eDUwNDBcdHg1NjAwXHR4NjE2MFx0eDY3MjBccGFyZGlybmF0dXJhbFxwYXJ0aWdodGVuZmFjdG9yMAoKXGYwXGZzMjQgXGNmMiBcdXAwIFxub3N1cGVyc3ViIFx1bG5vbmUgXG9ibGlxdWVuZXNzMCBcZXhwYW5zaW9uMCAxLgpcZjEgXCdjOFwnYWJcJ2NjXCdlNVwnYjJcJ2UyXCdjYVwnZDRcJ2IzXCdjOVwnZDRcJ2IxXCdiNFwnZWVcJ2JkXCdhOFwnYmFcJ2MzXCdiNFwnZmRcJ2IyXCdlMlwnY2ZcJ2VlXCdjNFwnYmZcJ2I1XCdjNH0=" to="e1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYxNDA0XGNvY29hc3VicnRmNDYwCntcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBIZWx2ZXRpY2FOZXVlO1xmMVxmbmlsXGZjaGFyc2V0MTM0IFBpbmdGYW5nU0MtUmVndWxhcjt9CntcY29sb3J0Ymw7XHJlZDI1NVxncmVlbjI1NVxibHVlMjU1O1xyZWQ4NVxncmVlbjg1XGJsdWU4NTt9ClxwYXJkXHR4NTYwXHR4MTEyMFx0eDE2ODBcdHgyMjQwXHR4MjgwMFx0eDMzNjBcdHgzOTIwXHR4NDQ4MFx0eDUwNDBcdHg1NjAwXHR4NjE2MFx0eDY3MjBccGFyZGlybmF0dXJhbFxwYXJ0aWdodGVuZmFjdG9yMAoKXGYwXGZzMjQgXGNmMiBcdXAwIFxub3N1cGVyc3ViIFx1bG5vbmUgXG9ibGlxdWVuZXNzMCBcZXhwYW5zaW9uMCAxLgpcZjEgXCdjOFwnYWJcJ2NjXCdlNVwnYjJcJ2UyXCdjYVwnZDRcJ2IzXCdjOVwnZDRcJ2IxXCdiNFwnZWVcJ2JkXCdhOFwnYmFcJ2MzXCdiNFwnZmRcJ2IyXCdlMlwnY2ZcJ2VlXCdjNFwnYmZcJ2I1XCdjNFwnYmJcJ2I3XCdiZVwnYjMKXGYwIFwKMi4KXGYxIFwnY2FcJ2VjXCdjZlwnYTRcJ2I0XCdmZFwnYjJcJ2UyXCdjZlwnZWVcJ2M0XCdiZlwnYjVcJ2M0XCdiOFwnZjdcJ2I4XCdmNlwnYjlcJ2E2XCdjNFwnZGNcJ2M0XCdhM1wnYmZcJ2U5fQ==" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="noprom" date="2016-04-26T02:21:03.488Z" timestamp="2016-04-26T02:21:03.488Z">
+    <change idref="t1" attribute="notesAllowingNil" type="textdata" from="e1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYxNDA0XGNvY29hc3VicnRmNDYwCntcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBIZWx2ZXRpY2FOZXVlO1xmMVxmbmlsXGZjaGFyc2V0MTM0IFBpbmdGYW5nU0MtUmVndWxhcjt9CntcY29sb3J0Ymw7XHJlZDI1NVxncmVlbjI1NVxibHVlMjU1O1xyZWQ4NVxncmVlbjg1XGJsdWU4NTt9ClxwYXJkXHR4NTYwXHR4MTEyMFx0eDE2ODBcdHgyMjQwXHR4MjgwMFx0eDMzNjBcdHgzOTIwXHR4NDQ4MFx0eDUwNDBcdHg1NjAwXHR4NjE2MFx0eDY3MjBccGFyZGlybmF0dXJhbFxwYXJ0aWdodGVuZmFjdG9yMAoKXGYwXGZzMjQgXGNmMiBcdXAwIFxub3N1cGVyc3ViIFx1bG5vbmUgXG9ibGlxdWVuZXNzMCBcZXhwYW5zaW9uMCAxLgpcZjEgXCdjOFwnYWJcJ2NjXCdlNVwnYjJcJ2UyXCdjYVwnZDRcJ2IzXCdjOVwnZDRcJ2IxXCdiNFwnZWVcJ2JkXCdhOFwnYmFcJ2MzXCdiNFwnZmRcJ2IyXCdlMlwnY2ZcJ2VlXCdjNFwnYmZcJ2I1XCdjNFwnYmJcJ2I3XCdiZVwnYjN9" to="e1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYxNDA0XGNvY29hc3VicnRmNDYwCntcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBIZWx2ZXRpY2FOZXVlO1xmMVxmbmlsXGZjaGFyc2V0MTM0IFBpbmdGYW5nU0MtUmVndWxhcjt9CntcY29sb3J0Ymw7XHJlZDI1NVxncmVlbjI1NVxibHVlMjU1O1xyZWQ4NVxncmVlbjg1XGJsdWU4NTt9ClxwYXJkXHR4NTYwXHR4MTEyMFx0eDE2ODBcdHgyMjQwXHR4MjgwMFx0eDMzNjBcdHgzOTIwXHR4NDQ4MFx0eDUwNDBcdHg1NjAwXHR4NjE2MFx0eDY3MjBccGFyZGlybmF0dXJhbFxwYXJ0aWdodGVuZmFjdG9yMAoKXGYwXGZzMjQgXGNmMiBcdXAwIFxub3N1cGVyc3ViIFx1bG5vbmUgXG9ibGlxdWVuZXNzMCBcZXhwYW5zaW9uMCAxLgpcZjEgXCdjOFwnYWJcJ2NjXCdlNVwnYjJcJ2UyXCdjYVwnZDRcJ2IzXCdjOVwnZDRcJ2IxXCdiNFwnZWVcJ2JkXCdhOFwnYmFcJ2MzXCdiNFwnZmRcJ2IyXCdlMlwnY2ZcJ2VlXCdjNFwnYmZcJ2I1XCdjNFwnYmJcJ2I3XCdiZVwnYjMKXGYwIFwKMi4KXGYxIFwnY2FcJ2VjXCdjZlwnYTRcJ2I0XCdmZFwnYjJcJ2UyXCdjZlwnZWVcJ2M0XCdiZlwnYjVcJ2M0XCdiOFwnZjdcJ2I4XCdmNlwnYjlcJ2E2XCdjNFwnZGNcJ2M0XCdhM1wnYmZcJ2U5fQ==" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="noprom" date="2016-04-26T02:21:08.355Z" timestamp="2016-04-26T02:21:08.355Z">
+    <change idref="t1" attribute="notesAllowingNil" type="textdata" from="e1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYxNDA0XGNvY29hc3VicnRmNDYwCntcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBIZWx2ZXRpY2FOZXVlO1xmMVxmbmlsXGZjaGFyc2V0MTM0IFBpbmdGYW5nU0MtUmVndWxhcjt9CntcY29sb3J0Ymw7XHJlZDI1NVxncmVlbjI1NVxibHVlMjU1O1xyZWQ4NVxncmVlbjg1XGJsdWU4NTt9ClxwYXJkXHR4NTYwXHR4MTEyMFx0eDE2ODBcdHgyMjQwXHR4MjgwMFx0eDMzNjBcdHgzOTIwXHR4NDQ4MFx0eDUwNDBcdHg1NjAwXHR4NjE2MFx0eDY3MjBccGFyZGlybmF0dXJhbFxwYXJ0aWdodGVuZmFjdG9yMAoKXGYwXGZzMjQgXGNmMiBcdXAwIFxub3N1cGVyc3ViIFx1bG5vbmUgXG9ibGlxdWVuZXNzMCBcZXhwYW5zaW9uMCAxLgpcZjEgXCdjOFwnYWJcJ2NjXCdlNVwnYjJcJ2UyXCdjYVwnZDRcJ2IzXCdjOVwnZDRcJ2IxXCdiNFwnZWVcJ2JkXCdhOFwnYmFcJ2MzXCdiNFwnZmRcJ2IyXCdlMlwnY2ZcJ2VlXCdjNFwnYmZcJ2I1XCdjNFwnYmJcJ2I3XCdiZVwnYjMKXGYwIFwKMi4KXGYxIFwnY2FcJ2VjXCdjZlwnYTR9" to="e1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYxNDA0XGNvY29hc3VicnRmNDYwCntcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBIZWx2ZXRpY2FOZXVlO1xmMVxmbmlsXGZjaGFyc2V0MTM0IFBpbmdGYW5nU0MtUmVndWxhcjt9CntcY29sb3J0Ymw7XHJlZDI1NVxncmVlbjI1NVxibHVlMjU1O1xyZWQ4NVxncmVlbjg1XGJsdWU4NTt9ClxwYXJkXHR4NTYwXHR4MTEyMFx0eDE2ODBcdHgyMjQwXHR4MjgwMFx0eDMzNjBcdHgzOTIwXHR4NDQ4MFx0eDUwNDBcdHg1NjAwXHR4NjE2MFx0eDY3MjBccGFyZGlybmF0dXJhbFxwYXJ0aWdodGVuZmFjdG9yMAoKXGYwXGZzMjQgXGNmMiBcdXAwIFxub3N1cGVyc3ViIFx1bG5vbmUgXG9ibGlxdWVuZXNzMCBcZXhwYW5zaW9uMCAxLgpcZjEgXCdjOFwnYWJcJ2NjXCdlNVwnYjJcJ2UyXCdjYVwnZDRcJ2IzXCdjOVwnZDRcJ2IxXCdiNFwnZWVcJ2JkXCdhOFwnYmFcJ2MzXCdiNFwnZmRcJ2IyXCdlMlwnY2ZcJ2VlXCdjNFwnYmZcJ2I1XCdjNFwnYmJcJ2I3XCdiZVwnYjMKXGYwIFwKMi4KXGYxIFwnY2FcJ2VjXCdjZlwnYTRcJ2I0XCdmZFwnYjJcJ2UyXCdjZlwnZWVcJ2M0XCdiZlwnYjVcJ2M0XCdiOFwnZjdcJ2I4XCdmNlwnYjlcJ2E2XCdjNFwnZGNcJ2M0XCdhM1wnYmZcJ2U5fQ==" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="noprom" date="2016-04-26T02:21:12.137Z" timestamp="2016-04-26T02:21:12.137Z">
+    <change idref="t1" attribute="notesAllowingNil" type="textdata" from="e1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYxNDA0XGNvY29hc3VicnRmNDYwCntcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBIZWx2ZXRpY2FOZXVlO1xmMVxmbmlsXGZjaGFyc2V0MTM0IFBpbmdGYW5nU0MtUmVndWxhcjt9CntcY29sb3J0Ymw7XHJlZDI1NVxncmVlbjI1NVxibHVlMjU1O1xyZWQ4NVxncmVlbjg1XGJsdWU4NTt9ClxwYXJkXHR4NTYwXHR4MTEyMFx0eDE2ODBcdHgyMjQwXHR4MjgwMFx0eDMzNjBcdHgzOTIwXHR4NDQ4MFx0eDUwNDBcdHg1NjAwXHR4NjE2MFx0eDY3MjBccGFyZGlybmF0dXJhbFxwYXJ0aWdodGVuZmFjdG9yMAoKXGYwXGZzMjQgXGNmMiBcdXAwIFxub3N1cGVyc3ViIFx1bG5vbmUgXG9ibGlxdWVuZXNzMCBcZXhwYW5zaW9uMCAxLgpcZjEgXCdjOFwnYWJcJ2NjXCdlNVwnYjJcJ2UyXCdjYVwnZDRcJ2IzXCdjOVwnZDRcJ2IxXCdiNFwnZWVcJ2JkXCdhOFwnYmFcJ2MzXCdiNFwnZmRcJ2IyXCdlMlwnY2ZcJ2VlXCdjNFwnYmZcJ2I1XCdjNFwnYmJcJ2I3XCdiZVwnYjMKXGYwIFwKMi4KXGYxIFwnY2FcJ2VjXCdjZlwnYTRcJ2I0XCdmZFwnYjJcJ2UyXCdjZlwnZWVcJ2M0XCdiZlwnYjVcJ2M0XCdiOFwnZjdcJ2I4XCdmNn0=" to="e1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYxNDA0XGNvY29hc3VicnRmNDYwCntcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBIZWx2ZXRpY2FOZXVlO1xmMVxmbmlsXGZjaGFyc2V0MTM0IFBpbmdGYW5nU0MtUmVndWxhcjt9CntcY29sb3J0Ymw7XHJlZDI1NVxncmVlbjI1NVxibHVlMjU1O1xyZWQ4NVxncmVlbjg1XGJsdWU4NTt9ClxwYXJkXHR4NTYwXHR4MTEyMFx0eDE2ODBcdHgyMjQwXHR4MjgwMFx0eDMzNjBcdHgzOTIwXHR4NDQ4MFx0eDUwNDBcdHg1NjAwXHR4NjE2MFx0eDY3MjBccGFyZGlybmF0dXJhbFxwYXJ0aWdodGVuZmFjdG9yMAoKXGYwXGZzMjQgXGNmMiBcdXAwIFxub3N1cGVyc3ViIFx1bG5vbmUgXG9ibGlxdWVuZXNzMCBcZXhwYW5zaW9uMCAxLgpcZjEgXCdjOFwnYWJcJ2NjXCdlNVwnYjJcJ2UyXCdjYVwnZDRcJ2IzXCdjOVwnZDRcJ2IxXCdiNFwnZWVcJ2JkXCdhOFwnYmFcJ2MzXCdiNFwnZmRcJ2IyXCdlMlwnY2ZcJ2VlXCdjNFwnYmZcJ2I1XCdjNFwnYmJcJ2I3XCdiZVwnYjMKXGYwIFwKMi4KXGYxIFwnY2FcJ2VjXCdjZlwnYTRcJ2I0XCdmZFwnYjJcJ2UyXCdjZlwnZWVcJ2M0XCdiZlwnYjVcJ2M0XCdiOFwnZjdcJ2I4XCdmNlwnYjlcJ2E2XCdjNFwnZGNcJ2M0XCdhM1wnYmZcJ2U5fQ==" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="noprom" date="2016-04-26T02:23:01.613Z" timestamp="2016-04-26T02:23:01.613Z">
+    <change idref="t1" attribute="effort" type="real" from="28800" to="42300" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="noprom" date="2016-04-26T02:23:16.131Z" timestamp="2016-04-26T02:23:16.131Z">
+    <change idref="t1" attribute="effort" type="real" from="42300" to="144000" resolved="yes"/>
+  </task-change-set>
+  <resource-change-set user="noprom" date="2016-04-26T02:17:14.089Z" timestamp="2016-04-26T02:17:14.089Z">
+    <change idref="r2" to="r-1" to-position="1" resolved="yes">
+      <change idref="r2" attribute="name" type="string" to="张庭瑞"/>
+    </change>
+    <change idref="r3" to="r-1" to-position="2" resolved="yes">
+      <change idref="r3" attribute="name" type="string" to="何林"/>
+    </change>
+    <change idref="r4" to="r-1" to-position="3" resolved="yes">
+      <change idref="r4" attribute="name" type="string" to="张栋"/>
+    </change>
+    <change idref="r5" to="r-1" to-position="4" resolved="yes">
+      <change idref="r5" attribute="name" type="string" to="安剑锋"/>
+    </change>
+    <change idref="r1" attribute="name" type="string" from="Resource 1" to="王韬懿" resolved="yes"/>
+  </resource-change-set>
+  <resource-change-set user="noprom" date="2016-04-26T02:23:01.613Z" timestamp="2016-04-26T02:23:01.613Z">
+    <change idref="r-1" attribute="standardHoursString" type="string" from="-;-;-;-;-;-;-" to="28800,43200;28800,43200,46800,61200;28800,43200,46800,61200;28800,43200,46800,61200;28800,43200,46800,61200;28800,43200,46800,61200;28800,43200" resolved="yes"/>
+  </resource-change-set>
+  <resource-change-set user="noprom" date="2016-04-26T02:23:07.778Z" timestamp="2016-04-26T02:23:07.778Z">
+    <change idref="r-1" attribute="standardHoursString" type="string" from="28800,43200;28800,43200,46800,61200;28800,43200,46800,61200;28800,43200,46800,61200;28800,43200,46800,61200;28800,43200,46800,61200;28800,43200" to="28800,43200,46800,61200;28800,43200,46800,61200;28800,43200,46800,61200;28800,43200,46800,61200;28800,43200,46800,61200;28800,43200,46800,61200;28800,43200,46800,61200" resolved="yes"/>
+  </resource-change-set>
+  <metadata-change-set user="noprom" date="2016-04-26T02:15:57.349Z" timestamp="2016-04-26T02:15:57.349Z">
+    <change idref="m1" attribute="fixedDate" type="date" from="2007-01-01T20:00:00.000Z" to="2016-04-26T00:00:00.000Z" resolved="yes"/>
+  </metadata-change-set>
+</changelog>
