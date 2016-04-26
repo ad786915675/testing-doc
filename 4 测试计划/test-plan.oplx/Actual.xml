@@ -111,7 +111,18 @@
     <type>group</type>
     <child-task idref="t1"/>
     <child-task idref="t3"/>
+    <child-task idref="t12"/>
+    <child-task idref="t13"/>
+    <child-task idref="t14"/>
+    <child-task idref="t15"/>
+    <child-task idref="t16"/>
+    <child-task idref="t17"/>
+    <child-task idref="t18"/>
+    <child-task idref="t19"/>
     <child-task idref="t2"/>
+    <child-task idref="t9"/>
+    <child-task idref="t10"/>
+    <child-task idref="t11"/>
   </task>
   <task id="t1">
     <title>环境部署以及熟悉项目</title>
@@ -136,14 +147,199 @@
         </p>
       </text>
     </note>
+    <assignment idref="r1"/>
+    <assignment idref="r2"/>
+    <assignment idref="r3"/>
+    <assignment idref="r4"/>
+    <assignment idref="r5"/>
   </task>
   <task id="t2">
-    <title>Task 1</title>
-    <effort>28800</effort>
+    <title>集成测试</title>
+    <effort>144000</effort>
+    <start-constraint-date>2016-05-05T00:00:00.000Z</start-constraint-date>
+    <assignment idref="r1"/>
+    <assignment idref="r2"/>
+    <assignment idref="r3"/>
+    <assignment idref="r4"/>
+    <assignment idref="r5"/>
+    <start-no-earlier-than>2016-05-05T00:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t3">
-    <title>Task 2</title>
-    <effort>28800</effort>
+    <title>单元测试之个人中心模块测试</title>
+    <effort>57600</effort>
+    <start-constraint-date>2016-05-01T00:00:00.000Z</start-constraint-date>
+    <note>
+      <text>
+        <p>
+          <run>
+            <lit>对内容管理系统的个人中心模块测试</lit>
+          </run>
+        </p>
+      </text>
+    </note>
+    <assignment idref="r2"/>
+    <start-no-earlier-than>2016-05-01T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t9">
+    <title>系统测试</title>
+    <effort>288000</effort>
+    <start-constraint-date>2016-05-10T00:00:00.000Z</start-constraint-date>
+    <assignment idref="r1"/>
+    <assignment idref="r2"/>
+    <assignment idref="r3"/>
+    <assignment idref="r4"/>
+    <assignment idref="r5"/>
+    <start-no-earlier-than>2016-05-10T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t10">
+    <title>文档验证</title>
+    <effort>144000</effort>
+    <start-constraint-date>2016-05-20T00:00:00.000Z</start-constraint-date>
+    <assignment idref="r1"/>
+    <assignment idref="r2"/>
+    <assignment idref="r3"/>
+    <assignment idref="r4"/>
+    <assignment idref="r5"/>
+    <start-no-earlier-than>2016-05-20T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t11">
+    <title>测试评估</title>
+    <effort>86400</effort>
+    <start-constraint-date>2016-05-25T00:00:00.000Z</start-constraint-date>
+    <assignment idref="r1"/>
+    <assignment idref="r2"/>
+    <assignment idref="r3"/>
+    <assignment idref="r4"/>
+    <assignment idref="r5"/>
+    <start-no-earlier-than>2016-05-25T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t12">
+    <title>单元测试之分类数据模块测试</title>
+    <effort>57600</effort>
+    <start-constraint-date>2016-05-01T00:00:00.000Z</start-constraint-date>
+    <note>
+      <text>
+        <p>
+          <run>
+            <lit>对内容管理系统的分类数据模块测试</lit>
+          </run>
+        </p>
+      </text>
+    </note>
+    <assignment idref="r3"/>
+    <start-no-earlier-than>2016-05-01T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t13">
+    <title>单元测试之回收站模块测试</title>
+    <effort>57600</effort>
+    <start-constraint-date>2016-05-01T00:00:00.000Z</start-constraint-date>
+    <note>
+      <text>
+        <p>
+          <run>
+            <lit>对内容管理系统的回收站模块测试</lit>
+          </run>
+        </p>
+      </text>
+    </note>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2016-05-01T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t14">
+    <title>单元测试之访问授权测试</title>
+    <effort>57600</effort>
+    <start-constraint-date>2016-05-01T00:00:00.000Z</start-constraint-date>
+    <note>
+      <text>
+        <p>
+          <run>
+            <lit>对内容管理系统的访问授权模块测试</lit>
+          </run>
+        </p>
+      </text>
+    </note>
+    <assignment idref="r5"/>
+    <start-no-earlier-than>2016-05-01T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t15">
+    <title>单元测试之分类授权测试</title>
+    <effort>57600</effort>
+    <start-constraint-date>2016-05-01T00:00:00.000Z</start-constraint-date>
+    <note>
+      <text>
+        <p>
+          <run>
+            <lit>对内容管理系统的分类授权模块测试</lit>
+          </run>
+        </p>
+      </text>
+    </note>
+    <assignment idref="r1"/>
+    <start-no-earlier-than>2016-05-01T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t16">
+    <title>单元测试之成员授权测试</title>
+    <effort>57600</effort>
+    <start-constraint-date>2016-05-03T00:00:00.000Z</start-constraint-date>
+    <note>
+      <text>
+        <p>
+          <run>
+            <lit>对内容管理系统的成员授权模块测试</lit>
+          </run>
+        </p>
+      </text>
+    </note>
+    <assignment idref="r2"/>
+    <start-no-earlier-than>2016-05-03T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t17">
+    <title>单元测试之行为日志测试</title>
+    <effort>57600</effort>
+    <start-constraint-date>2016-05-03T00:00:00.000Z</start-constraint-date>
+    <note>
+      <text>
+        <p>
+          <run>
+            <lit>对内容管理系统的行为日志模块测试</lit>
+          </run>
+        </p>
+      </text>
+    </note>
+    <assignment idref="r3"/>
+    <start-no-earlier-than>2016-05-03T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t18">
+    <title>单元测试之用户行为模块测试</title>
+    <effort>57600</effort>
+    <start-constraint-date>2016-05-03T00:00:00.000Z</start-constraint-date>
+    <note>
+      <text>
+        <p>
+          <run>
+            <lit>对内容管理系统的用户行为模块测试</lit>
+          </run>
+        </p>
+      </text>
+    </note>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2016-05-03T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t19">
+    <title>单元测试之用户信息模块测试</title>
+    <effort>57600</effort>
+    <start-constraint-date>2016-05-03T00:00:00.000Z</start-constraint-date>
+    <note>
+      <text>
+        <p>
+          <run>
+            <lit>对内容管理系统的用户信息模块测试</lit>
+          </run>
+        </p>
+      </text>
+    </note>
+    <assignment idref="r5"/>
+    <start-no-earlier-than>2016-05-03T00:00:00.000Z</start-no-earlier-than>
   </task>
   <critical-path root="-1" enabled="false" resources="false">
     <color r="1" g="0.5" b="0.5"/>

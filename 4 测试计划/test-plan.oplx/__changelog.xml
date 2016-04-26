@@ -34,6 +34,319 @@
   <task-change-set user="noprom" date="2016-04-26T02:23:16.131Z" timestamp="2016-04-26T02:23:16.131Z">
     <change idref="t1" attribute="effort" type="real" from="42300" to="144000" resolved="yes"/>
   </task-change-set>
+  <task-change-set user="noprom" date="2016-04-26T02:31:00.303Z" timestamp="2016-04-26T02:31:00.303Z">
+    <change idref="t3" attribute="title" type="string" from="Task 2" to="单元测试" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="noprom" date="2016-04-26T02:31:18.813Z" timestamp="2016-04-26T02:31:18.813Z">
+    <change idref="t2" attribute="title" type="string" from="Task 1" to="集成测试" resolved="yes"/>
+    <change idref="t3" attribute="noEarlierThanConstraintDate" type="date" to="2016-05-01T00:00:00.000Z" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="noprom" date="2016-04-26T02:31:22.491Z" timestamp="2016-04-26T02:31:22.491Z">
+    <change idref="t9" to="t-1" to-position="3" resolved="yes">
+      <change idref="t9" attribute="title" type="string" to="文档验证"/>
+    </change>
+  </task-change-set>
+  <task-change-set user="noprom" date="2016-04-26T02:31:28.573Z" timestamp="2016-04-26T02:31:28.573Z">
+    <change idref="t10" to="t-1" to-position="4" resolved="yes">
+      <change idref="t10" attribute="title" type="string" to="系统测试"/>
+    </change>
+  </task-change-set>
+  <task-change-set user="noprom" date="2016-04-26T02:31:32.927Z" timestamp="2016-04-26T02:31:32.927Z">
+    <change idref="t9" attribute="title" type="string" from="文档验证" to="系统测试" resolved="yes"/>
+    <change idref="t10" attribute="title" type="string" from="系统测试" to="文档验证" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="noprom" date="2016-04-26T02:35:48.989Z" timestamp="2016-04-26T02:35:48.989Z">
+    <change idref="t11" to="t-1" to-position="5" resolved="yes">
+      <change idref="t11" attribute="title" type="string" to="测试评估"/>
+    </change>
+  </task-change-set>
+  <task-change-set user="noprom" date="2016-04-26T02:36:09.213Z" timestamp="2016-04-26T02:36:09.213Z">
+    <change idref="t12" to="t-1" to-position="2" resolved="yes">
+      <change idref="t12" attribute="title" type="string" to="Task 1"/>
+    </change>
+  </task-change-set>
+  <task-change-set user="noprom" date="2016-04-26T02:37:19.702Z" timestamp="2016-04-26T02:37:19.702Z">
+    <change idref="t3" attribute="title" type="string" from="单元测试" to="单元测试之内容管理测试" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="noprom" date="2016-04-26T02:37:23.577Z" timestamp="2016-04-26T02:37:23.577Z">
+    <change idref="t3" attribute="notesAllowingNil" type="textdata" to="e1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYxNDA0XGNvY29hc3VicnRmNDYwCntcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MTM0IFBpbmdGYW5nU0MtUmVndWxhcjt9CntcY29sb3J0Ymw7XHJlZDI1NVxncmVlbjI1NVxibHVlMjU1O1xyZWQ4NVxncmVlbjg1XGJsdWU4NTt9ClxwYXJkXHR4NTYwXHR4MTEyMFx0eDE2ODBcdHgyMjQwXHR4MjgwMFx0eDMzNjBcdHgzOTIwXHR4NDQ4MFx0eDUwNDBcdHg1NjAwXHR4NjE2MFx0eDY3MjBccGFyZGlybmF0dXJhbFxwYXJ0aWdodGVuZmFjdG9yMAoKXGYwXGZzMjQgXGNmMiBcdXAwIFxub3N1cGVyc3ViIFx1bG5vbmUgXG9ibGlxdWVuZXNzMCBcZXhwYW5zaW9uMCBcJ2I2XCdkNFwnYzRcJ2RhXCdjOFwnZGRcJ2I5XCdkY1wnYzBcJ2VkXCdjZlwnYjVcJ2NkXCdiM1wnYjVcJ2M0XCdiOFwnZjZcJ2M4XCdjYlwnZDZcJ2QwXCdkMFwnYzRcJ2M0XCdhM1wnYmZcJ2U5XCdiMlwnZTJcJ2NhXCdkNH0=" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="noprom" date="2016-04-26T02:37:33.626Z" timestamp="2016-04-26T02:37:33.626Z">
+    <change idref="t3" attribute="notesAllowingNil" type="textdata" from="e1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYxNDA0XGNvY29hc3VicnRmNDYwCntcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MTM0IFBpbmdGYW5nU0MtUmVndWxhcjt9CntcY29sb3J0Ymw7XHJlZDI1NVxncmVlbjI1NVxibHVlMjU1O1xyZWQ4NVxncmVlbjg1XGJsdWU4NTt9ClxwYXJkXHR4NTYwXHR4MTEyMFx0eDE2ODBcdHgyMjQwXHR4MjgwMFx0eDMzNjBcdHgzOTIwXHR4NDQ4MFx0eDUwNDBcdHg1NjAwXHR4NjE2MFx0eDY3MjBccGFyZGlybmF0dXJhbFxwYXJ0aWdodGVuZmFjdG9yMAoKXGYwXGZzMjQgXGNmMiBcdXAwIFxub3N1cGVyc3ViIFx1bG5vbmUgXG9ibGlxdWVuZXNzMCBcZXhwYW5zaW9uMCBcJ2I2XCdkNH0=" to="e1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYxNDA0XGNvY29hc3VicnRmNDYwCntcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MTM0IFBpbmdGYW5nU0MtUmVndWxhcjt9CntcY29sb3J0Ymw7XHJlZDI1NVxncmVlbjI1NVxibHVlMjU1O1xyZWQ4NVxncmVlbjg1XGJsdWU4NTt9ClxwYXJkXHR4NTYwXHR4MTEyMFx0eDE2ODBcdHgyMjQwXHR4MjgwMFx0eDMzNjBcdHgzOTIwXHR4NDQ4MFx0eDUwNDBcdHg1NjAwXHR4NjE2MFx0eDY3MjBccGFyZGlybmF0dXJhbFxwYXJ0aWdodGVuZmFjdG9yMAoKXGYwXGZzMjQgXGNmMiBcdXAwIFxub3N1cGVyc3ViIFx1bG5vbmUgXG9ibGlxdWVuZXNzMCBcZXhwYW5zaW9uMCBcJ2I2XCdkNFwnYzRcJ2RhXCdjOFwnZGRcJ2I5XCdkY1wnYzBcJ2VkXCdjZlwnYjVcJ2NkXCdiM1wnYjVcJ2M0XCdiOFwnZjZcJ2M4XCdjYlwnZDZcJ2QwXCdkMFwnYzRcJ2M0XCdhM1wnYmZcJ2U5XCdiMlwnZTJcJ2NhXCdkNH0=" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="noprom" date="2016-04-26T02:37:51.985Z" timestamp="2016-04-26T02:37:51.985Z">
+    <change idref="t3" attribute="title" type="string" from="单元测试之内容管理测试" to="单元测试之个人中心模块测试" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="noprom" date="2016-04-26T02:37:57.500Z" timestamp="2016-04-26T02:37:57.500Z">
+    <change idref="t3" attribute="notesAllowingNil" type="textdata" from="e1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYxNDA0XGNvY29hc3VicnRmNDYwCntcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MTM0IFBpbmdGYW5nU0MtUmVndWxhcjt9CntcY29sb3J0Ymw7XHJlZDI1NVxncmVlbjI1NVxibHVlMjU1O1xyZWQ4NVxncmVlbjg1XGJsdWU4NTt9ClxwYXJkXHR4NTYwXHR4MTEyMFx0eDE2ODBcdHgyMjQwXHR4MjgwMFx0eDMzNjBcdHgzOTIwXHR4NDQ4MFx0eDUwNDBcdHg1NjAwXHR4NjE2MFx0eDY3MjBccGFyZGlybmF0dXJhbFxwYXJ0aWdodGVuZmFjdG9yMAoKXGYwXGZzMjQgXGNmMiBcdXAwIFxub3N1cGVyc3ViIFx1bG5vbmUgXG9ibGlxdWVuZXNzMCBcZXhwYW5zaW9uMCBcJ2I2XCdkNFwnYzRcJ2RhXCdjOFwnZGRcJ2I5XCdkY1wnYzBcJ2VkXCdjZlwnYjVcJ2NkXCdiM1wnYjVcJ2M0fQ==" to="e1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYxNDA0XGNvY29hc3VicnRmNDYwCntcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MTM0IFBpbmdGYW5nU0MtUmVndWxhcjt9CntcY29sb3J0Ymw7XHJlZDI1NVxncmVlbjI1NVxibHVlMjU1O1xyZWQ4NVxncmVlbjg1XGJsdWU4NTt9ClxwYXJkXHR4NTYwXHR4MTEyMFx0eDE2ODBcdHgyMjQwXHR4MjgwMFx0eDMzNjBcdHgzOTIwXHR4NDQ4MFx0eDUwNDBcdHg1NjAwXHR4NjE2MFx0eDY3MjBccGFyZGlybmF0dXJhbFxwYXJ0aWdodGVuZmFjdG9yMAoKXGYwXGZzMjQgXGNmMiBcdXAwIFxub3N1cGVyc3ViIFx1bG5vbmUgXG9ibGlxdWVuZXNzMCBcZXhwYW5zaW9uMCBcJ2I2XCdkNFwnYzRcJ2RhXCdjOFwnZGRcJ2I5XCdkY1wnYzBcJ2VkXCdjZlwnYjVcJ2NkXCdiM1wnYjVcJ2M0XCdiOFwnZjZcJ2M4XCdjYlwnZDZcJ2QwXCdkMFwnYzRcJ2M0XCdhM1wnYmZcJ2U5XCdiMlwnZTJcJ2NhXCdkNH0=" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="noprom" date="2016-04-26T02:38:17.005Z" timestamp="2016-04-26T02:38:17.005Z">
+    <change idref="t3" attribute="effort" type="real" from="28800" to="57600" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="noprom" date="2016-04-26T02:38:28.681Z" timestamp="2016-04-26T02:38:28.681Z">
+    <change idref="t1" attribute="internalAssignments" type="string" from="" to="1; 2; 3; 4; 5" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="noprom" date="2016-04-26T02:38:33.834Z" timestamp="2016-04-26T02:38:33.834Z">
+    <change idref="t3" attribute="internalAssignments" type="string" from="" to="2" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="noprom" date="2016-04-26T02:38:40.094Z" timestamp="2016-04-26T02:38:40.094Z">
+    <change idref="t12" attribute="title" type="string" from="Task 1" to="单元测试之个人中心模块测试" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="noprom" date="2016-04-26T02:39:27.770Z" timestamp="2016-04-26T02:39:27.770Z">
+    <change idref="t12" attribute="title" type="string" from="单元测试之个人中心模块测试" to="单元测试之分类数据模块测试" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="noprom" date="2016-04-26T02:40:03.543Z" timestamp="2016-04-26T02:40:03.543Z">
+    <change idref="t12" attribute="notesAllowingNil" type="textdata" to="e1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYxNDA0XGNvY29hc3VicnRmNDYwCntcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MTM0IFBpbmdGYW5nU0MtUmVndWxhcjt9CntcY29sb3J0Ymw7XHJlZDI1NVxncmVlbjI1NVxibHVlMjU1O1xyZWQ4NVxncmVlbjg1XGJsdWU4NTt9ClxwYXJkXHR4NTYwXHR4MTEyMFx0eDE2ODBcdHgyMjQwXHR4MjgwMFx0eDMzNjBcdHgzOTIwXHR4NDQ4MFx0eDUwNDBcdHg1NjAwXHR4NjE2MFx0eDY3MjBccGFyZGlybmF0dXJhbFxwYXJ0aWdodGVuZmFjdG9yMAoKXGYwXGZzMjQgXGNmMiBcdXAwIFxub3N1cGVyc3ViIFx1bG5vbmUgXG9ibGlxdWVuZXNzMCBcZXhwYW5zaW9uMCBcJ2I2XCdkNFwnYzRcJ2RhXCdjOFwnZGRcJ2I5XCdkY1wnYzBcJ2VkXCdjZlwnYjVcJ2NkXCdiM1wnYjVcJ2M0XCdiN1wnZDZcJ2MwXCdlMFwnY2FcJ2ZkXCdiZVwnZGRcJ2M0XCdhM1wnYmZcJ2U5XCdiMlwnZTJcJ2NhXCdkNH0=" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="noprom" date="2016-04-26T02:40:10.718Z" timestamp="2016-04-26T02:40:10.718Z">
+    <change idref="t12" attribute="notesAllowingNil" type="textdata" from="e1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYxNDA0XGNvY29hc3VicnRmNDYwCntcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBTaW1TdW47fQp7XGNvbG9ydGJsO1xyZWQyNTVcZ3JlZW4yNTVcYmx1ZTI1NTt9ClxkZWZ0YWI3MjAKXHBhcmRccGFyZGVmdGFiNzIwXHJpLTcyMFxxalxwYXJ0aWdodGVuZmFjdG9yMAoKXGYwXGZzMjEgXGNmMCBcdWMwXHUyMDk5OCBcdTMxODY3IFx1MjU5NjggXHUyNTQ1NCB9" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="noprom" date="2016-04-26T02:40:16.790Z" timestamp="2016-04-26T02:40:16.790Z">
+    <change idref="t12" attribute="notesAllowingNil" type="textdata" to="e1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYxNDA0XGNvY29hc3VicnRmNDYwCntcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MTM0IFBpbmdGYW5nU0MtUmVndWxhcjt9CntcY29sb3J0Ymw7XHJlZDI1NVxncmVlbjI1NVxibHVlMjU1O1xyZWQ4NVxncmVlbjg1XGJsdWU4NTt9ClxwYXJkXHR4NTYwXHR4MTEyMFx0eDE2ODBcdHgyMjQwXHR4MjgwMFx0eDMzNjBcdHgzOTIwXHR4NDQ4MFx0eDUwNDBcdHg1NjAwXHR4NjE2MFx0eDY3MjBccGFyZGlybmF0dXJhbFxwYXJ0aWdodGVuZmFjdG9yMAoKXGYwXGZzMjQgXGNmMiBcdXAwIFxub3N1cGVyc3ViIFx1bG5vbmUgXG9ibGlxdWVuZXNzMCBcZXhwYW5zaW9uMCBcJ2I2XCdkNFwnYzRcJ2RhXCdjOFwnZGRcJ2I5XCdkY1wnYzBcJ2VkXCdjZlwnYjVcJ2NkXCdiM1wnYjVcJ2M0XCdiN1wnZDZcJ2MwXCdlMFwnY2FcJ2ZkXCdiZVwnZGRcJ2M0XCdhM1wnYmZcJ2U5XCdiMlwnZTJcJ2NhXCdkNH0=" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="noprom" date="2016-04-26T02:40:20.973Z" timestamp="2016-04-26T02:40:20.973Z">
+    <change idref="t12" attribute="notesAllowingNil" type="textdata" from="e1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYxNDA0XGNvY29hc3VicnRmNDYwCntcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MTM0IFBpbmdGYW5nU0MtUmVndWxhcjt9CntcY29sb3J0Ymw7XHJlZDI1NVxncmVlbjI1NVxibHVlMjU1O1xyZWQ4NVxncmVlbjg1XGJsdWU4NTt9ClxwYXJkXHR4NTYwXHR4MTEyMFx0eDE2ODBcdHgyMjQwXHR4MjgwMFx0eDMzNjBcdHgzOTIwXHR4NDQ4MFx0eDUwNDBcdHg1NjAwXHR4NjE2MFx0eDY3MjBccGFyZGlybmF0dXJhbFxwYXJ0aWdodGVuZmFjdG9yMAoKXGYwXGZzMjQgXGNmMiBcdXAwIFxub3N1cGVyc3ViIFx1bG5vbmUgXG9ibGlxdWVuZXNzMCBcZXhwYW5zaW9uMCBcJ2I2XCdkNFwnYzRcJ2RhXCdjOFwnZGRcJ2I5XCdkY1wnYzBcJ2VkXCdjZlwnYjVcJ2NkXCdiM1wnYjVcJ2M0XCdiOFwnZjZcJ2M4XCdjYlwnZDZcJ2QwXCdkMFwnYzRcJ2M0XCdhM1wnYmZcJ2U5XCdiMlwnZTJcJ2NhXCdkNH0=" to="e1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYxNDA0XGNvY29hc3VicnRmNDYwCntcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MTM0IFBpbmdGYW5nU0MtUmVndWxhcjt9CntcY29sb3J0Ymw7XHJlZDI1NVxncmVlbjI1NVxibHVlMjU1O1xyZWQ4NVxncmVlbjg1XGJsdWU4NTt9ClxwYXJkXHR4NTYwXHR4MTEyMFx0eDE2ODBcdHgyMjQwXHR4MjgwMFx0eDMzNjBcdHgzOTIwXHR4NDQ4MFx0eDUwNDBcdHg1NjAwXHR4NjE2MFx0eDY3MjBccGFyZGlybmF0dXJhbFxwYXJ0aWdodGVuZmFjdG9yMAoKXGYwXGZzMjQgXGNmMiBcdXAwIFxub3N1cGVyc3ViIFx1bG5vbmUgXG9ibGlxdWVuZXNzMCBcZXhwYW5zaW9uMCBcJ2I2XCdkNFwnYzRcJ2RhXCdjOFwnZGRcJ2I5XCdkY1wnYzBcJ2VkXCdjZlwnYjVcJ2NkXCdiM1wnYjVcJ2M0XCdiN1wnZDZcJ2MwXCdlMFwnY2FcJ2ZkXCdiZVwnZGRcJ2M0XCdhM1wnYmZcJ2U5XCdiMlwnZTJcJ2NhXCdkNH0=" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="noprom" date="2016-04-26T02:40:25.644Z" timestamp="2016-04-26T02:40:25.644Z">
+    <change idref="t12" attribute="internalAssignments" type="string" from="" to="3" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="noprom" date="2016-04-26T02:40:30.120Z" timestamp="2016-04-26T02:40:30.120Z">
+    <change idref="t12" attribute="noEarlierThanConstraintDate" type="date" to="2016-04-30T08:45:00.000Z" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="noprom" date="2016-04-26T02:40:34.143Z" timestamp="2016-04-26T02:40:34.143Z">
+    <change idref="t12" attribute="noEarlierThanConstraintDate" type="date" from="2016-04-30T08:45:00.000Z" to="2016-05-01T00:00:00.000Z" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="noprom" date="2016-04-26T02:40:37.852Z" timestamp="2016-04-26T02:40:37.852Z">
+    <change idref="t12" attribute="effort" type="real" from="28800" to="57600" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="noprom" date="2016-04-26T02:40:46.394Z" timestamp="2016-04-26T02:40:46.394Z">
+    <change idref="t13" to="t-1" to-position="3" resolved="yes">
+      <change idref="t13" attribute="title" type="string" to="单元测试之分类数据模块测试"/>
+    </change>
+  </task-change-set>
+  <task-change-set user="noprom" date="2016-04-26T02:40:58.133Z" timestamp="2016-04-26T02:40:58.133Z">
+    <change idref="t13" attribute="title" type="string" from="单元测试之分类数据模块测试" to="单元测试之回收站模块测试" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="noprom" date="2016-04-26T02:44:10.234Z" timestamp="2016-04-26T02:44:10.234Z">
+    <change idref="t13" attribute="notesAllowingNil" type="textdata" to="e1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYxNDA0XGNvY29hc3VicnRmNDYwCntcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MTM0IFBpbmdGYW5nU0MtUmVndWxhcjt9CntcY29sb3J0Ymw7XHJlZDI1NVxncmVlbjI1NVxibHVlMjU1O1xyZWQ4NVxncmVlbjg1XGJsdWU4NTt9ClxwYXJkXHR4NTYwXHR4MTEyMFx0eDE2ODBcdHgyMjQwXHR4MjgwMFx0eDMzNjBcdHgzOTIwXHR4NDQ4MFx0eDUwNDBcdHg1NjAwXHR4NjE2MFx0eDY3MjBccGFyZGlybmF0dXJhbFxwYXJ0aWdodGVuZmFjdG9yMAoKXGYwXGZzMjQgXGNmMiBcdXAwIFxub3N1cGVyc3ViIFx1bG5vbmUgXG9ibGlxdWVuZXNzMCBcZXhwYW5zaW9uMCBcJ2I2XCdkNFwnYzRcJ2RhXCdjOFwnZGRcJ2I5XCdkY1wnYzBcJ2VkXCdjZlwnYjVcJ2NkXCdiM1wnYjVcJ2M0XCdiYlwnZDhcJ2NhXCdkNVwnZDVcJ2JlXCdjNFwnYTNcJ2JmXCdlOVwnYjJcJ2UyXCdjYVwnZDR9" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="noprom" date="2016-04-26T02:44:15.932Z" timestamp="2016-04-26T02:44:15.932Z">
+    <change idref="t13" attribute="notesAllowingNil" type="textdata" from="e1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYxNDA0XGNvY29hc3VicnRmNDYwCntcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MTM0IFBpbmdGYW5nU0MtUmVndWxhcjt9CntcY29sb3J0Ymw7XHJlZDI1NVxncmVlbjI1NVxibHVlMjU1O1xyZWQ4NVxncmVlbjg1XGJsdWU4NTt9ClxwYXJkXHR4NTYwXHR4MTEyMFx0eDE2ODBcdHgyMjQwXHR4MjgwMFx0eDMzNjBcdHgzOTIwXHR4NDQ4MFx0eDUwNDBcdHg1NjAwXHR4NjE2MFx0eDY3MjBccGFyZGlybmF0dXJhbFxwYXJ0aWdodGVuZmFjdG9yMAoKXGYwXGZzMjQgXGNmMiBcdXAwIFxub3N1cGVyc3ViIFx1bG5vbmUgXG9ibGlxdWVuZXNzMCBcZXhwYW5zaW9uMCBcJ2I2XCdkNFwnYzRcJ2RhXCdjOFwnZGRcJ2I5XCdkY1wnYzBcJ2VkXCdjZlwnYjVcJ2NkXCdiM1wnYjVcJ2M0XCdiN1wnZDZcJ2MwXCdlMFwnY2FcJ2ZkXCdiZVwnZGRcJ2M0XCdhM1wnYmZcJ2U5XCdiMlwnZTJcJ2NhXCdkNH0=" to="e1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYxNDA0XGNvY29hc3VicnRmNDYwCntcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MTM0IFBpbmdGYW5nU0MtUmVndWxhcjt9CntcY29sb3J0Ymw7XHJlZDI1NVxncmVlbjI1NVxibHVlMjU1O1xyZWQ4NVxncmVlbjg1XGJsdWU4NTt9ClxwYXJkXHR4NTYwXHR4MTEyMFx0eDE2ODBcdHgyMjQwXHR4MjgwMFx0eDMzNjBcdHgzOTIwXHR4NDQ4MFx0eDUwNDBcdHg1NjAwXHR4NjE2MFx0eDY3MjBccGFyZGlybmF0dXJhbFxwYXJ0aWdodGVuZmFjdG9yMAoKXGYwXGZzMjQgXGNmMiBcdXAwIFxub3N1cGVyc3ViIFx1bG5vbmUgXG9ibGlxdWVuZXNzMCBcZXhwYW5zaW9uMCBcJ2I2XCdkNFwnYzRcJ2RhXCdjOFwnZGRcJ2I5XCdkY1wnYzBcJ2VkXCdjZlwnYjVcJ2NkXCdiM1wnYjVcJ2M0XCdiYlwnZDhcJ2NhXCdkNVwnZDVcJ2JlXCdjNFwnYTNcJ2JmXCdlOVwnYjJcJ2UyXCdjYVwnZDR9" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="noprom" date="2016-04-26T02:44:22.950Z" timestamp="2016-04-26T02:44:22.950Z">
+    <change idref="t13" attribute="internalAssignments" type="string" from="" to="4" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="noprom" date="2016-04-26T02:44:30.569Z" timestamp="2016-04-26T02:44:30.569Z">
+    <change idref="t13" attribute="effort" type="real" from="28800" to="57600" resolved="yes"/>
+    <change idref="t13" attribute="noEarlierThanConstraintDate" type="date" to="2016-05-01T00:00:00.000Z" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="noprom" date="2016-04-26T02:44:37.856Z" timestamp="2016-04-26T02:44:37.856Z">
+    <change idref="t14" to="t-1" to-position="4" resolved="yes">
+      <change idref="t14" attribute="title" type="string" to="单元测试之回收站模块测试"/>
+    </change>
+  </task-change-set>
+  <task-change-set user="noprom" date="2016-04-26T02:45:04.327Z" timestamp="2016-04-26T02:45:04.327Z">
+    <change idref="t14" attribute="title" type="string" from="单元测试之回收站模块测试" to="单元测试之访问授权测试" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="noprom" date="2016-04-26T02:45:11.421Z" timestamp="2016-04-26T02:45:11.421Z">
+    <change idref="t14" attribute="notesAllowingNil" type="textdata" to="e1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYxNDA0XGNvY29hc3VicnRmNDYwCntcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MTM0IFBpbmdGYW5nU0MtUmVndWxhcjt9CntcY29sb3J0Ymw7XHJlZDI1NVxncmVlbjI1NVxibHVlMjU1O1xyZWQ4NVxncmVlbjg1XGJsdWU4NTt9ClxwYXJkXHR4NTYwXHR4MTEyMFx0eDE2ODBcdHgyMjQwXHR4MjgwMFx0eDMzNjBcdHgzOTIwXHR4NDQ4MFx0eDUwNDBcdHg1NjAwXHR4NjE2MFx0eDY3MjBccGFyZGlybmF0dXJhbFxwYXJ0aWdodGVuZmFjdG9yMAoKXGYwXGZzMjQgXGNmMiBcdXAwIFxub3N1cGVyc3ViIFx1bG5vbmUgXG9ibGlxdWVuZXNzMCBcZXhwYW5zaW9uMCBcJ2I2XCdkNFwnYzRcJ2RhXCdjOFwnZGRcJ2I5XCdkY1wnYzBcJ2VkXCdjZlwnYjVcJ2NkXCdiM1wnYjVcJ2M0XCdiN1wnYzNcJ2NlXCdjYVwnY2FcJ2RhXCdjOFwnYThcJ2M0XCdhM1wnYmZcJ2U5XCdiMlwnZTJcJ2NhXCdkNH0=" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="noprom" date="2016-04-26T02:45:18.708Z" timestamp="2016-04-26T02:45:18.708Z">
+    <change idref="t14" attribute="notesAllowingNil" type="textdata" from="e1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYxNDA0XGNvY29hc3VicnRmNDYwCntcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MTM0IFBpbmdGYW5nU0MtUmVndWxhcjt9CntcY29sb3J0Ymw7XHJlZDI1NVxncmVlbjI1NVxibHVlMjU1O1xyZWQ4NVxncmVlbjg1XGJsdWU4NTt9ClxwYXJkXHR4NTYwXHR4MTEyMFx0eDE2ODBcdHgyMjQwXHR4MjgwMFx0eDMzNjBcdHgzOTIwXHR4NDQ4MFx0eDUwNDBcdHg1NjAwXHR4NjE2MFx0eDY3MjBccGFyZGlybmF0dXJhbFxwYXJ0aWdodGVuZmFjdG9yMAoKXGYwXGZzMjQgXGNmMiBcdXAwIFxub3N1cGVyc3ViIFx1bG5vbmUgXG9ibGlxdWVuZXNzMCBcZXhwYW5zaW9uMCBcJ2I2XCdkNFwnYzRcJ2RhXCdjOFwnZGRcJ2I5XCdkY1wnYzBcJ2VkXCdjZlwnYjVcJ2NkXCdiM1wnYjVcJ2M0XCdiYlwnZDhcJ2NhXCdkNVwnZDVcJ2JlXCdjNFwnYTNcJ2JmXCdlOVwnYjJcJ2UyXCdjYVwnZDR9" to="e1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYxNDA0XGNvY29hc3VicnRmNDYwCntcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MTM0IFBpbmdGYW5nU0MtUmVndWxhcjt9CntcY29sb3J0Ymw7XHJlZDI1NVxncmVlbjI1NVxibHVlMjU1O1xyZWQ4NVxncmVlbjg1XGJsdWU4NTt9ClxwYXJkXHR4NTYwXHR4MTEyMFx0eDE2ODBcdHgyMjQwXHR4MjgwMFx0eDMzNjBcdHgzOTIwXHR4NDQ4MFx0eDUwNDBcdHg1NjAwXHR4NjE2MFx0eDY3MjBccGFyZGlybmF0dXJhbFxwYXJ0aWdodGVuZmFjdG9yMAoKXGYwXGZzMjQgXGNmMiBcdXAwIFxub3N1cGVyc3ViIFx1bG5vbmUgXG9ibGlxdWVuZXNzMCBcZXhwYW5zaW9uMCBcJ2I2XCdkNFwnYzRcJ2RhXCdjOFwnZGRcJ2I5XCdkY1wnYzBcJ2VkXCdjZlwnYjVcJ2NkXCdiM1wnYjVcJ2M0XCdiN1wnYzNcJ2NlXCdjYVwnY2FcJ2RhXCdjOFwnYThcJ2M0XCdhM1wnYmZcJ2U5XCdiMlwnZTJcJ2NhXCdkNH0=" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="noprom" date="2016-04-26T02:45:24.373Z" timestamp="2016-04-26T02:45:24.373Z">
+    <change idref="t14" attribute="internalAssignments" type="string" from="" to="5" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="noprom" date="2016-04-26T02:45:31.158Z" timestamp="2016-04-26T02:45:31.158Z">
+    <change idref="t14" attribute="effort" type="real" from="28800" to="57600" resolved="yes"/>
+    <change idref="t14" attribute="noEarlierThanConstraintDate" type="date" to="2016-05-01T00:00:00.000Z" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="noprom" date="2016-04-26T02:46:31.352Z" timestamp="2016-04-26T02:46:31.352Z">
+    <change idref="t15" to="t-1" to-position="5" resolved="yes">
+      <change idref="t15" attribute="title" type="string" to="单元测试之分类授权测试"/>
+    </change>
+  </task-change-set>
+  <task-change-set user="noprom" date="2016-04-26T02:46:36.586Z" timestamp="2016-04-26T02:46:36.586Z">
+    <change idref="t15" attribute="notesAllowingNil" type="textdata" to="e1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYxNDA0XGNvY29hc3VicnRmNDYwCntcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MTM0IFBpbmdGYW5nU0MtUmVndWxhcjt9CntcY29sb3J0Ymw7XHJlZDI1NVxncmVlbjI1NVxibHVlMjU1O1xyZWQ4NVxncmVlbjg1XGJsdWU4NTt9ClxwYXJkXHR4NTYwXHR4MTEyMFx0eDE2ODBcdHgyMjQwXHR4MjgwMFx0eDMzNjBcdHgzOTIwXHR4NDQ4MFx0eDUwNDBcdHg1NjAwXHR4NjE2MFx0eDY3MjBccGFyZGlybmF0dXJhbFxwYXJ0aWdodGVuZmFjdG9yMAoKXGYwXGZzMjQgXGNmMiBcdXAwIFxub3N1cGVyc3ViIFx1bG5vbmUgXG9ibGlxdWVuZXNzMCBcZXhwYW5zaW9uMCBcJ2I2XCdkNFwnYzRcJ2RhXCdjOFwnZGRcJ2I5XCdkY1wnYzBcJ2VkXCdjZlwnYjVcJ2NkXCdiM1wnYjVcJ2M0XCdiN1wnZDZcJ2MwXCdlMFwnY2FcJ2RhXCdjOFwnYThcJ2M0XCdhM1wnYmZcJ2U5XCdiMlwnZTJcJ2NhXCdkNH0=" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="noprom" date="2016-04-26T02:46:39.605Z" timestamp="2016-04-26T02:46:39.605Z">
+    <change idref="t15" attribute="notesAllowingNil" type="textdata" from="e1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYxNDA0XGNvY29hc3VicnRmNDYwCntcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MTM0IFBpbmdGYW5nU0MtUmVndWxhcjt9CntcY29sb3J0Ymw7XHJlZDI1NVxncmVlbjI1NVxibHVlMjU1O1xyZWQ4NVxncmVlbjg1XGJsdWU4NTt9ClxwYXJkXHR4NTYwXHR4MTEyMFx0eDE2ODBcdHgyMjQwXHR4MjgwMFx0eDMzNjBcdHgzOTIwXHR4NDQ4MFx0eDUwNDBcdHg1NjAwXHR4NjE2MFx0eDY3MjBccGFyZGlybmF0dXJhbFxwYXJ0aWdodGVuZmFjdG9yMAoKXGYwXGZzMjQgXGNmMiBcdXAwIFxub3N1cGVyc3ViIFx1bG5vbmUgXG9ibGlxdWVuZXNzMCBcZXhwYW5zaW9uMCBcJ2I2XCdkNFwnYzRcJ2RhXCdjOFwnZGRcJ2I5XCdkY1wnYzBcJ2VkXCdjZlwnYjVcJ2NkXCdiM1wnYjVcJ2M0XCdiN1wnYzNcJ2NlXCdjYVwnY2FcJ2RhXCdjOFwnYThcJ2M0XCdhM1wnYmZcJ2U5XCdiMlwnZTJcJ2NhXCdkNH0=" to="e1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYxNDA0XGNvY29hc3VicnRmNDYwCntcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MTM0IFBpbmdGYW5nU0MtUmVndWxhcjt9CntcY29sb3J0Ymw7XHJlZDI1NVxncmVlbjI1NVxibHVlMjU1O1xyZWQ4NVxncmVlbjg1XGJsdWU4NTt9ClxwYXJkXHR4NTYwXHR4MTEyMFx0eDE2ODBcdHgyMjQwXHR4MjgwMFx0eDMzNjBcdHgzOTIwXHR4NDQ4MFx0eDUwNDBcdHg1NjAwXHR4NjE2MFx0eDY3MjBccGFyZGlybmF0dXJhbFxwYXJ0aWdodGVuZmFjdG9yMAoKXGYwXGZzMjQgXGNmMiBcdXAwIFxub3N1cGVyc3ViIFx1bG5vbmUgXG9ibGlxdWVuZXNzMCBcZXhwYW5zaW9uMCBcJ2I2XCdkNFwnYzRcJ2RhXCdjOFwnZGRcJ2I5XCdkY1wnYzBcJ2VkXCdjZlwnYjVcJ2NkXCdiM1wnYjVcJ2M0XCdiN1wnZDZcJ2MwXCdlMFwnY2FcJ2RhXCdjOFwnYThcJ2M0XCdhM1wnYmZcJ2U5XCdiMlwnZTJcJ2NhXCdkNH0=" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="noprom" date="2016-04-26T02:46:45.114Z" timestamp="2016-04-26T02:46:45.114Z">
+    <change idref="t15" attribute="internalAssignments" type="string" from="" to="1" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="noprom" date="2016-04-26T02:46:56.859Z" timestamp="2016-04-26T02:46:56.859Z">
+    <change idref="t15" attribute="effort" type="real" from="28800" to="57600" resolved="yes"/>
+    <change idref="t15" attribute="noEarlierThanConstraintDate" type="date" to="2016-05-01T00:00:00.000Z" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="noprom" date="2016-04-26T02:47:07.466Z" timestamp="2016-04-26T02:47:07.466Z">
+    <change idref="t16" to="t-1" to-position="6" resolved="yes">
+      <change idref="t16" attribute="title" type="string" to="单元测试之分类授权测试"/>
+    </change>
+  </task-change-set>
+  <task-change-set user="noprom" date="2016-04-26T02:47:17.314Z" timestamp="2016-04-26T02:47:17.314Z">
+    <change idref="t16" attribute="title" type="string" from="单元测试之分类授权测试" to="单元测试之成员授权测试" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="noprom" date="2016-04-26T02:47:23.065Z" timestamp="2016-04-26T02:47:23.065Z">
+    <change idref="t16" attribute="notesAllowingNil" type="textdata" to="e1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYxNDA0XGNvY29hc3VicnRmNDYwCntcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MTM0IFBpbmdGYW5nU0MtUmVndWxhcjt9CntcY29sb3J0Ymw7XHJlZDI1NVxncmVlbjI1NVxibHVlMjU1O1xyZWQ4NVxncmVlbjg1XGJsdWU4NTt9ClxwYXJkXHR4NTYwXHR4MTEyMFx0eDE2ODBcdHgyMjQwXHR4MjgwMFx0eDMzNjBcdHgzOTIwXHR4NDQ4MFx0eDUwNDBcdHg1NjAwXHR4NjE2MFx0eDY3MjBccGFyZGlybmF0dXJhbFxwYXJ0aWdodGVuZmFjdG9yMAoKXGYwXGZzMjQgXGNmMiBcdXAwIFxub3N1cGVyc3ViIFx1bG5vbmUgXG9ibGlxdWVuZXNzMCBcZXhwYW5zaW9uMCBcJ2I2XCdkNFwnYzRcJ2RhXCdjOFwnZGRcJ2I5XCdkY1wnYzBcJ2VkXCdjZlwnYjVcJ2NkXCdiM1wnYjVcJ2M0XCdiM1wnYzlcJ2Q0XCdiMVwnY2FcJ2RhXCdjOFwnYThcJ2M0XCdhM1wnYmZcJ2U5XCdiMlwnZTJcJ2NhXCdkNH0=" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="noprom" date="2016-04-26T02:47:26.297Z" timestamp="2016-04-26T02:47:26.297Z">
+    <change idref="t16" attribute="notesAllowingNil" type="textdata" from="e1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYxNDA0XGNvY29hc3VicnRmNDYwCntcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MTM0IFBpbmdGYW5nU0MtUmVndWxhcjt9CntcY29sb3J0Ymw7XHJlZDI1NVxncmVlbjI1NVxibHVlMjU1O1xyZWQ4NVxncmVlbjg1XGJsdWU4NTt9ClxwYXJkXHR4NTYwXHR4MTEyMFx0eDE2ODBcdHgyMjQwXHR4MjgwMFx0eDMzNjBcdHgzOTIwXHR4NDQ4MFx0eDUwNDBcdHg1NjAwXHR4NjE2MFx0eDY3MjBccGFyZGlybmF0dXJhbFxwYXJ0aWdodGVuZmFjdG9yMAoKXGYwXGZzMjQgXGNmMiBcdXAwIFxub3N1cGVyc3ViIFx1bG5vbmUgXG9ibGlxdWVuZXNzMCBcZXhwYW5zaW9uMCBcJ2I2XCdkNFwnYzRcJ2RhXCdjOFwnZGRcJ2I5XCdkY1wnYzBcJ2VkXCdjZlwnYjVcJ2NkXCdiM1wnYjVcJ2M0XCdiN1wnZDZcJ2MwXCdlMFwnY2FcJ2RhXCdjOFwnYThcJ2M0XCdhM1wnYmZcJ2U5XCdiMlwnZTJcJ2NhXCdkNH0=" to="e1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYxNDA0XGNvY29hc3VicnRmNDYwCntcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MTM0IFBpbmdGYW5nU0MtUmVndWxhcjt9CntcY29sb3J0Ymw7XHJlZDI1NVxncmVlbjI1NVxibHVlMjU1O1xyZWQ4NVxncmVlbjg1XGJsdWU4NTt9ClxwYXJkXHR4NTYwXHR4MTEyMFx0eDE2ODBcdHgyMjQwXHR4MjgwMFx0eDMzNjBcdHgzOTIwXHR4NDQ4MFx0eDUwNDBcdHg1NjAwXHR4NjE2MFx0eDY3MjBccGFyZGlybmF0dXJhbFxwYXJ0aWdodGVuZmFjdG9yMAoKXGYwXGZzMjQgXGNmMiBcdXAwIFxub3N1cGVyc3ViIFx1bG5vbmUgXG9ibGlxdWVuZXNzMCBcZXhwYW5zaW9uMCBcJ2I2XCdkNFwnYzRcJ2RhXCdjOFwnZGRcJ2I5XCdkY1wnYzBcJ2VkXCdjZlwnYjVcJ2NkXCdiM1wnYjVcJ2M0XCdiM1wnYzlcJ2Q0XCdiMVwnY2FcJ2RhXCdjOFwnYThcJ2M0XCdhM1wnYmZcJ2U5XCdiMlwnZTJcJ2NhXCdkNH0=" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="noprom" date="2016-04-26T02:47:30.286Z" timestamp="2016-04-26T02:47:30.286Z">
+    <change idref="t16" attribute="internalAssignments" type="string" from="" to="2" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="noprom" date="2016-04-26T02:47:37.002Z" timestamp="2016-04-26T02:47:37.002Z">
+    <change idref="t16" attribute="noEarlierThanConstraintDate" type="date" to="2016-05-03T00:00:00.000Z" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="noprom" date="2016-04-26T02:47:50.762Z" timestamp="2016-04-26T02:47:50.762Z">
+    <change idref="t16" attribute="effort" type="real" from="28800" to="57600" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="noprom" date="2016-04-26T02:48:02.898Z" timestamp="2016-04-26T02:48:02.898Z">
+    <change idref="t17" to="t-1" to-position="7" resolved="yes">
+      <change idref="t17" attribute="title" type="string" to="单元测试之成员授权测试"/>
+    </change>
+  </task-change-set>
+  <task-change-set user="noprom" date="2016-04-26T02:48:09.746Z" timestamp="2016-04-26T02:48:09.746Z">
+    <change idref="t17" attribute="title" type="string" from="单元测试之成员授权测试" to="单元测试之行为日志测试" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="noprom" date="2016-04-26T02:48:15.560Z" timestamp="2016-04-26T02:48:15.560Z">
+    <change idref="t17" attribute="notesAllowingNil" type="textdata" to="e1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYxNDA0XGNvY29hc3VicnRmNDYwCntcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MTM0IFBpbmdGYW5nU0MtUmVndWxhcjt9CntcY29sb3J0Ymw7XHJlZDI1NVxncmVlbjI1NVxibHVlMjU1O1xyZWQ4NVxncmVlbjg1XGJsdWU4NTt9ClxwYXJkXHR4NTYwXHR4MTEyMFx0eDE2ODBcdHgyMjQwXHR4MjgwMFx0eDMzNjBcdHgzOTIwXHR4NDQ4MFx0eDUwNDBcdHg1NjAwXHR4NjE2MFx0eDY3MjBccGFyZGlybmF0dXJhbFxwYXJ0aWdodGVuZmFjdG9yMAoKXGYwXGZzMjQgXGNmMiBcdXAwIFxub3N1cGVyc3ViIFx1bG5vbmUgXG9ibGlxdWVuZXNzMCBcZXhwYW5zaW9uMCBcJ2I2XCdkNFwnYzRcJ2RhXCdjOFwnZGRcJ2I5XCdkY1wnYzBcJ2VkXCdjZlwnYjVcJ2NkXCdiM1wnYjVcJ2M0XCdkMFwnZDBcJ2NlXCdhYVwnYzhcJ2Q1XCdkNlwnYmVcJ2M0XCdhM1wnYmZcJ2U5XCdiMlwnZTJcJ2NhXCdkNH0=" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="noprom" date="2016-04-26T02:48:19.630Z" timestamp="2016-04-26T02:48:19.630Z">
+    <change idref="t17" attribute="notesAllowingNil" type="textdata" from="e1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYxNDA0XGNvY29hc3VicnRmNDYwCntcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MTM0IFBpbmdGYW5nU0MtUmVndWxhcjt9CntcY29sb3J0Ymw7XHJlZDI1NVxncmVlbjI1NVxibHVlMjU1O1xyZWQ4NVxncmVlbjg1XGJsdWU4NTt9ClxwYXJkXHR4NTYwXHR4MTEyMFx0eDE2ODBcdHgyMjQwXHR4MjgwMFx0eDMzNjBcdHgzOTIwXHR4NDQ4MFx0eDUwNDBcdHg1NjAwXHR4NjE2MFx0eDY3MjBccGFyZGlybmF0dXJhbFxwYXJ0aWdodGVuZmFjdG9yMAoKXGYwXGZzMjQgXGNmMiBcdXAwIFxub3N1cGVyc3ViIFx1bG5vbmUgXG9ibGlxdWVuZXNzMCBcZXhwYW5zaW9uMCBcJ2I2XCdkNFwnYzRcJ2RhXCdjOFwnZGRcJ2I5XCdkY1wnYzBcJ2VkXCdjZlwnYjVcJ2NkXCdiM1wnYjVcJ2M0XCdiM1wnYzlcJ2Q0XCdiMVwnY2FcJ2RhXCdjOFwnYThcJ2M0XCdhM1wnYmZcJ2U5XCdiMlwnZTJcJ2NhXCdkNH0=" to="e1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYxNDA0XGNvY29hc3VicnRmNDYwCntcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MTM0IFBpbmdGYW5nU0MtUmVndWxhcjt9CntcY29sb3J0Ymw7XHJlZDI1NVxncmVlbjI1NVxibHVlMjU1O1xyZWQ4NVxncmVlbjg1XGJsdWU4NTt9ClxwYXJkXHR4NTYwXHR4MTEyMFx0eDE2ODBcdHgyMjQwXHR4MjgwMFx0eDMzNjBcdHgzOTIwXHR4NDQ4MFx0eDUwNDBcdHg1NjAwXHR4NjE2MFx0eDY3MjBccGFyZGlybmF0dXJhbFxwYXJ0aWdodGVuZmFjdG9yMAoKXGYwXGZzMjQgXGNmMiBcdXAwIFxub3N1cGVyc3ViIFx1bG5vbmUgXG9ibGlxdWVuZXNzMCBcZXhwYW5zaW9uMCBcJ2I2XCdkNFwnYzRcJ2RhXCdjOFwnZGRcJ2I5XCdkY1wnYzBcJ2VkXCdjZlwnYjVcJ2NkXCdiM1wnYjVcJ2M0XCdkMFwnZDBcJ2NlXCdhYVwnYzhcJ2Q1XCdkNlwnYmVcJ2M0XCdhM1wnYmZcJ2U5XCdiMlwnZTJcJ2NhXCdkNH0=" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="noprom" date="2016-04-26T02:48:39.131Z" timestamp="2016-04-26T02:48:39.131Z">
+    <change idref="t18" to="t-1" to-position="8" resolved="yes">
+      <change idref="t18" attribute="title" type="string" to="Task 1"/>
+    </change>
+    <change idref="t17" attribute="effort" type="real" from="28800" to="57600" resolved="yes"/>
+    <change idref="t17" attribute="internalAssignments" type="string" from="" to="3" resolved="yes"/>
+    <change idref="t17" attribute="noEarlierThanConstraintDate" type="date" to="2016-05-03T00:00:00.000Z" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="noprom" date="2016-04-26T02:48:43.187Z" timestamp="2016-04-26T02:48:43.187Z">
+    <change idref="t18" attribute="title" type="string" from="Task 1" to="单元测试之行为日志测试" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="noprom" date="2016-04-26T02:48:54.720Z" timestamp="2016-04-26T02:48:54.720Z">
+    <change idref="t18" attribute="title" type="string" from="单元测试之行为日志测试" to="单元测试之用户行为模块测试" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="noprom" date="2016-04-26T02:49:13.357Z" timestamp="2016-04-26T02:49:13.357Z">
+    <change idref="t18" attribute="notesAllowingNil" type="textdata" to="e1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYxNDA0XGNvY29hc3VicnRmNDYwCntcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MTM0IFBpbmdGYW5nU0MtUmVndWxhcjt9CntcY29sb3J0Ymw7XHJlZDI1NVxncmVlbjI1NVxibHVlMjU1O1xyZWQ4NVxncmVlbjg1XGJsdWU4NTt9ClxwYXJkXHR4NTYwXHR4MTEyMFx0eDE2ODBcdHgyMjQwXHR4MjgwMFx0eDMzNjBcdHgzOTIwXHR4NDQ4MFx0eDUwNDBcdHg1NjAwXHR4NjE2MFx0eDY3MjBccGFyZGlybmF0dXJhbFxwYXJ0aWdodGVuZmFjdG9yMAoKXGYwXGZzMjQgXGNmMiBcdXAwIFxub3N1cGVyc3ViIFx1bG5vbmUgXG9ibGlxdWVuZXNzMCBcZXhwYW5zaW9uMCBcJ2I2XCdkNFwnYzRcJ2RhXCdjOFwnZGRcJ2I5XCdkY1wnYzBcJ2VkXCdjZlwnYjVcJ2NkXCdiM1wnYjVcJ2M0XCdkM1wnYzNcJ2JiXCdhN1wnZDBcJ2QwXCdjZVwnYWFcJ2M0XCdhM1wnYmZcJ2U5XCdiMlwnZTJcJ2NhXCdkNH0=" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="noprom" date="2016-04-26T02:49:19.206Z" timestamp="2016-04-26T02:49:19.206Z">
+    <change idref="t18" attribute="notesAllowingNil" type="textdata" from="e1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYxNDA0XGNvY29hc3VicnRmNDYwCntcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MTM0IFBpbmdGYW5nU0MtUmVndWxhcjt9CntcY29sb3J0Ymw7XHJlZDI1NVxncmVlbjI1NVxibHVlMjU1O1xyZWQ4NVxncmVlbjg1XGJsdWU4NTt9ClxwYXJkXHR4NTYwXHR4MTEyMFx0eDE2ODBcdHgyMjQwXHR4MjgwMFx0eDMzNjBcdHgzOTIwXHR4NDQ4MFx0eDUwNDBcdHg1NjAwXHR4NjE2MFx0eDY3MjBccGFyZGlybmF0dXJhbFxwYXJ0aWdodGVuZmFjdG9yMAoKXGYwXGZzMjQgXGNmMiBcdXAwIFxub3N1cGVyc3ViIFx1bG5vbmUgXG9ibGlxdWVuZXNzMCBcZXhwYW5zaW9uMCBcJ2I2XCdkNFwnYzRcJ2RhXCdjOFwnZGRcJ2I5XCdkY1wnYzBcJ2VkXCdjZlwnYjVcJ2NkXCdiM1wnYjVcJ2M0XCdkMFwnZDBcJ2NlXCdhYVwnYzhcJ2Q1XCdkNlwnYmVcJ2M0XCdhM1wnYmZcJ2U5XCdiMlwnZTJcJ2NhXCdkNH0=" to="e1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYxNDA0XGNvY29hc3VicnRmNDYwCntcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MTM0IFBpbmdGYW5nU0MtUmVndWxhcjt9CntcY29sb3J0Ymw7XHJlZDI1NVxncmVlbjI1NVxibHVlMjU1O1xyZWQ4NVxncmVlbjg1XGJsdWU4NTt9ClxwYXJkXHR4NTYwXHR4MTEyMFx0eDE2ODBcdHgyMjQwXHR4MjgwMFx0eDMzNjBcdHgzOTIwXHR4NDQ4MFx0eDUwNDBcdHg1NjAwXHR4NjE2MFx0eDY3MjBccGFyZGlybmF0dXJhbFxwYXJ0aWdodGVuZmFjdG9yMAoKXGYwXGZzMjQgXGNmMiBcdXAwIFxub3N1cGVyc3ViIFx1bG5vbmUgXG9ibGlxdWVuZXNzMCBcZXhwYW5zaW9uMCBcJ2I2XCdkNFwnYzRcJ2RhXCdjOFwnZGRcJ2I5XCdkY1wnYzBcJ2VkXCdjZlwnYjVcJ2NkXCdiM1wnYjVcJ2M0XCdkM1wnYzNcJ2JiXCdhN1wnZDBcJ2QwXCdjZVwnYWFcJ2M0XCdhM1wnYmZcJ2U5XCdiMlwnZTJcJ2NhXCdkNH0=" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="noprom" date="2016-04-26T02:49:21.970Z" timestamp="2016-04-26T02:49:21.970Z">
+    <change idref="t18" attribute="notesAllowingNil" type="textdata" from="e1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYxNDA0XGNvY29hc3VicnRmNDYwCntcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MTM0IFBpbmdGYW5nU0MtUmVndWxhcjt9CntcY29sb3J0Ymw7XHJlZDI1NVxncmVlbjI1NVxibHVlMjU1O1xyZWQ4NVxncmVlbjg1XGJsdWU4NTt9ClxwYXJkXHR4NTYwXHR4MTEyMFx0eDE2ODBcdHgyMjQwXHR4MjgwMFx0eDMzNjBcdHgzOTIwXHR4NDQ4MFx0eDUwNDBcdHg1NjAwXHR4NjE2MFx0eDY3MjBccGFyZGlybmF0dXJhbFxwYXJ0aWdodGVuZmFjdG9yMAoKXGYwXGZzMjQgXGNmMiBcdXAwIFxub3N1cGVyc3ViIFx1bG5vbmUgXG9ibGlxdWVuZXNzMCBcZXhwYW5zaW9uMCBcJ2I2XCdkNFwnYzRcJ2RhXCdjOFwnZGRcJ2I5XCdkY1wnYzBcJ2VkXCdjZlwnYjVcJ2NkXCdiM1wnYjVcJ2M0XCdkMFwnZDBcJ2NlXCdhYVwnYzRcJ2EzXCdiZlwnZTlcJ2IyXCdlMlwnY2FcJ2Q0fQ==" to="e1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYxNDA0XGNvY29hc3VicnRmNDYwCntcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MTM0IFBpbmdGYW5nU0MtUmVndWxhcjt9CntcY29sb3J0Ymw7XHJlZDI1NVxncmVlbjI1NVxibHVlMjU1O1xyZWQ4NVxncmVlbjg1XGJsdWU4NTt9ClxwYXJkXHR4NTYwXHR4MTEyMFx0eDE2ODBcdHgyMjQwXHR4MjgwMFx0eDMzNjBcdHgzOTIwXHR4NDQ4MFx0eDUwNDBcdHg1NjAwXHR4NjE2MFx0eDY3MjBccGFyZGlybmF0dXJhbFxwYXJ0aWdodGVuZmFjdG9yMAoKXGYwXGZzMjQgXGNmMiBcdXAwIFxub3N1cGVyc3ViIFx1bG5vbmUgXG9ibGlxdWVuZXNzMCBcZXhwYW5zaW9uMCBcJ2I2XCdkNFwnYzRcJ2RhXCdjOFwnZGRcJ2I5XCdkY1wnYzBcJ2VkXCdjZlwnYjVcJ2NkXCdiM1wnYjVcJ2M0XCdkM1wnYzNcJ2JiXCdhN1wnZDBcJ2QwXCdjZVwnYWFcJ2M0XCdhM1wnYmZcJ2U5XCdiMlwnZTJcJ2NhXCdkNH0=" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="noprom" date="2016-04-26T02:49:25.165Z" timestamp="2016-04-26T02:49:25.165Z">
+    <change idref="t19" to="t-1" to-position="9" resolved="yes">
+      <change idref="t19" attribute="title" type="string" to="Task 1"/>
+    </change>
+    <change idref="t18" attribute="effort" type="real" from="28800" to="57600" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="noprom" date="2016-04-26T02:49:30.098Z" timestamp="2016-04-26T02:49:30.098Z">
+    <change idref="t18" attribute="internalAssignments" type="string" from="" to="4" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="noprom" date="2016-04-26T02:49:46.296Z" timestamp="2016-04-26T02:49:46.296Z">
+    <change idref="t18" attribute="noEarlierThanConstraintDate" type="date" to="2016-05-03T00:00:00.000Z" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="noprom" date="2016-04-26T02:50:20.444Z" timestamp="2016-04-26T02:50:20.444Z">
+    <change idref="t19" attribute="title" type="string" from="Task 1" to="单元测试之用户行为模块测试" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="noprom" date="2016-04-26T02:50:23.095Z" timestamp="2016-04-26T02:50:23.095Z">
+    <change idref="t19" attribute="title" type="string" from="单元测试之用户行为模块测试" to="单元测试之用户信息模块测试" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="noprom" date="2016-04-26T02:50:28.460Z" timestamp="2016-04-26T02:50:28.460Z">
+    <change idref="t19" attribute="notesAllowingNil" type="textdata" to="e1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYxNDA0XGNvY29hc3VicnRmNDYwCntcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MTM0IFBpbmdGYW5nU0MtUmVndWxhcjt9CntcY29sb3J0Ymw7XHJlZDI1NVxncmVlbjI1NVxibHVlMjU1O1xyZWQ4NVxncmVlbjg1XGJsdWU4NTt9ClxwYXJkXHR4NTYwXHR4MTEyMFx0eDE2ODBcdHgyMjQwXHR4MjgwMFx0eDMzNjBcdHgzOTIwXHR4NDQ4MFx0eDUwNDBcdHg1NjAwXHR4NjE2MFx0eDY3MjBccGFyZGlybmF0dXJhbFxwYXJ0aWdodGVuZmFjdG9yMAoKXGYwXGZzMjQgXGNmMiBcdXAwIFxub3N1cGVyc3ViIFx1bG5vbmUgXG9ibGlxdWVuZXNzMCBcZXhwYW5zaW9uMCBcJ2I2XCdkNFwnYzRcJ2RhXCdjOFwnZGRcJ2I5XCdkY1wnYzBcJ2VkXCdjZlwnYjVcJ2NkXCdiM1wnYjVcJ2M0XCdkM1wnYzNcJ2JiXCdhN1wnZDBcJ2M1XCdjZlwnYTJcJ2M0XCdhM1wnYmZcJ2U5XCdiMlwnZTJcJ2NhXCdkNH0=" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="noprom" date="2016-04-26T02:50:30.762Z" timestamp="2016-04-26T02:50:30.762Z">
+    <change idref="t19" attribute="notesAllowingNil" type="textdata" from="e1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYxNDA0XGNvY29hc3VicnRmNDYwCntcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MTM0IFBpbmdGYW5nU0MtUmVndWxhcjt9CntcY29sb3J0Ymw7XHJlZDI1NVxncmVlbjI1NVxibHVlMjU1O1xyZWQ4NVxncmVlbjg1XGJsdWU4NTt9ClxwYXJkXHR4NTYwXHR4MTEyMFx0eDE2ODBcdHgyMjQwXHR4MjgwMFx0eDMzNjBcdHgzOTIwXHR4NDQ4MFx0eDUwNDBcdHg1NjAwXHR4NjE2MFx0eDY3MjBccGFyZGlybmF0dXJhbFxwYXJ0aWdodGVuZmFjdG9yMAoKXGYwXGZzMjQgXGNmMiBcdXAwIFxub3N1cGVyc3ViIFx1bG5vbmUgXG9ibGlxdWVuZXNzMCBcZXhwYW5zaW9uMCBcJ2I2XCdkNFwnYzRcJ2RhXCdjOFwnZGRcJ2I5XCdkY1wnYzBcJ2VkXCdjZlwnYjVcJ2NkXCdiM1wnYjVcJ2M0XCdkM1wnYzNcJ2JiXCdhN1wnZDBcJ2QwXCdjZVwnYWFcJ2M0XCdhM1wnYmZcJ2U5XCdiMlwnZTJcJ2NhXCdkNH0=" to="e1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYxNDA0XGNvY29hc3VicnRmNDYwCntcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MTM0IFBpbmdGYW5nU0MtUmVndWxhcjt9CntcY29sb3J0Ymw7XHJlZDI1NVxncmVlbjI1NVxibHVlMjU1O1xyZWQ4NVxncmVlbjg1XGJsdWU4NTt9ClxwYXJkXHR4NTYwXHR4MTEyMFx0eDE2ODBcdHgyMjQwXHR4MjgwMFx0eDMzNjBcdHgzOTIwXHR4NDQ4MFx0eDUwNDBcdHg1NjAwXHR4NjE2MFx0eDY3MjBccGFyZGlybmF0dXJhbFxwYXJ0aWdodGVuZmFjdG9yMAoKXGYwXGZzMjQgXGNmMiBcdXAwIFxub3N1cGVyc3ViIFx1bG5vbmUgXG9ibGlxdWVuZXNzMCBcZXhwYW5zaW9uMCBcJ2I2XCdkNFwnYzRcJ2RhXCdjOFwnZGRcJ2I5XCdkY1wnYzBcJ2VkXCdjZlwnYjVcJ2NkXCdiM1wnYjVcJ2M0XCdkM1wnYzNcJ2JiXCdhN1wnZDBcJ2M1XCdjZlwnYTJcJ2M0XCdhM1wnYmZcJ2U5XCdiMlwnZTJcJ2NhXCdkNH0=" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="noprom" date="2016-04-26T02:50:33.729Z" timestamp="2016-04-26T02:50:33.729Z">
+    <change idref="t20" to="t-1" to-position="10" resolved="yes">
+      <change idref="t20" attribute="title" type="string" to="Task 1"/>
+    </change>
+    <change idref="t19" attribute="effort" type="real" from="28800" to="57600" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="noprom" date="2016-04-26T02:50:40.143Z" timestamp="2016-04-26T02:50:40.143Z">
+    <change idref="t19" attribute="noEarlierThanConstraintDate" type="date" to="2016-05-03T00:00:00.000Z" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="noprom" date="2016-04-26T02:50:44.896Z" timestamp="2016-04-26T02:50:44.896Z">
+    <change idref="t19" attribute="internalAssignments" type="string" from="" to="5" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="noprom" date="2016-04-26T02:50:53.001Z" timestamp="2016-04-26T02:50:53.001Z">
+    <change idref="t20" from="t-1" from-position="10" resolved="yes">
+      <change idref="t20" attribute="title" type="string" to="Task 1"/>
+    </change>
+  </task-change-set>
+  <task-change-set user="noprom" date="2016-04-26T02:51:35.303Z" timestamp="2016-04-26T02:51:35.303Z">
+    <change idref="t21" to="t-1" to-position="11" resolved="yes">
+      <change idref="t21" attribute="title" type="string" to="Task 1"/>
+    </change>
+    <change idref="t2" attribute="effort" type="real" from="28800" to="144000" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="noprom" date="2016-04-26T02:51:45.411Z" timestamp="2016-04-26T02:51:45.411Z">
+    <change idref="t2" attribute="noEarlierThanConstraintDate" type="date" to="2016-05-05T00:00:00.000Z" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="noprom" date="2016-04-26T02:51:50.118Z" timestamp="2016-04-26T02:51:50.118Z">
+    <change idref="t21" from="t-1" from-position="11" resolved="yes">
+      <change idref="t21" attribute="title" type="string" to="Task 1"/>
+    </change>
+  </task-change-set>
+  <task-change-set user="noprom" date="2016-04-26T02:51:54.531Z" timestamp="2016-04-26T02:51:54.531Z">
+    <change idref="t22" to="t-1" to-position="12" resolved="yes">
+      <change idref="t22" attribute="title" type="string" to="Task 1"/>
+    </change>
+    <change idref="t9" attribute="effort" type="real" from="28800" to="144000" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="noprom" date="2016-04-26T02:52:07.397Z" timestamp="2016-04-26T02:52:07.397Z">
+    <change idref="t9" attribute="noEarlierThanConstraintDate" type="date" to="2016-05-10T00:00:00.000Z" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="noprom" date="2016-04-26T02:52:12.317Z" timestamp="2016-04-26T02:52:12.317Z">
+    <change idref="t22" from="t-1" from-position="12" resolved="yes">
+      <change idref="t22" attribute="title" type="string" to="Task 1"/>
+    </change>
+  </task-change-set>
+  <task-change-set user="noprom" date="2016-04-26T02:52:14.953Z" timestamp="2016-04-26T02:52:14.953Z">
+    <change idref="t10" attribute="effort" type="real" from="28800" to="144000" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="noprom" date="2016-04-26T02:52:34.142Z" timestamp="2016-04-26T02:52:34.142Z">
+    <change idref="t10" attribute="noEarlierThanConstraintDate" type="date" to="2016-05-15T00:00:00.000Z" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="noprom" date="2016-04-26T02:52:50.372Z" timestamp="2016-04-26T02:52:50.372Z">
+    <change idref="t9" attribute="effort" type="real" from="144000" to="288000" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="noprom" date="2016-04-26T02:53:03.793Z" timestamp="2016-04-26T02:53:03.793Z">
+    <change idref="t10" attribute="noEarlierThanConstraintDate" type="date" from="2016-05-15T00:00:00.000Z" to="2016-05-19T08:45:00.000Z" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="noprom" date="2016-04-26T02:53:08.577Z" timestamp="2016-04-26T02:53:08.577Z">
+    <change idref="t10" attribute="noEarlierThanConstraintDate" type="date" from="2016-05-19T08:45:00.000Z" to="2016-05-20T00:15:00.000Z" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="noprom" date="2016-04-26T02:53:12.959Z" timestamp="2016-04-26T02:53:12.959Z">
+    <change idref="t10" attribute="noEarlierThanConstraintDate" type="date" from="2016-05-20T00:15:00.000Z" to="2016-05-20T00:00:00.000Z" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="noprom" date="2016-04-26T02:53:36.548Z" timestamp="2016-04-26T02:53:36.548Z">
+    <change idref="t11" attribute="effort" type="real" from="28800" to="86400" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="noprom" date="2016-04-26T02:54:02.001Z" timestamp="2016-04-26T02:54:02.001Z">
+    <change idref="t11" attribute="noEarlierThanConstraintDate" type="date" to="2016-05-25T00:30:00.000Z" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="noprom" date="2016-04-26T02:54:05.934Z" timestamp="2016-04-26T02:54:05.934Z">
+    <change idref="t11" attribute="noEarlierThanConstraintDate" type="date" from="2016-05-25T00:30:00.000Z" to="2016-05-25T00:00:00.000Z" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="noprom" date="2016-04-26T02:54:21.961Z" timestamp="2016-04-26T02:54:21.961Z">
+    <change idref="t2" attribute="internalAssignments" type="string" from="" to="1; 2; 3; 4; 5" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="noprom" date="2016-04-26T02:54:31.378Z" timestamp="2016-04-26T02:54:31.378Z">
+    <change idref="t9" attribute="internalAssignments" type="string" from="" to="1; 2; 3; 4; 5" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="noprom" date="2016-04-26T02:54:45.102Z" timestamp="2016-04-26T02:54:45.102Z">
+    <change idref="t10" attribute="internalAssignments" type="string" from="" to="1; 2; 3; 4; 5" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="noprom" date="2016-04-26T02:54:57.530Z" timestamp="2016-04-26T02:54:57.530Z">
+    <change idref="t11" attribute="internalAssignments" type="string" from="" to="1; 2; 3; 4; 5" resolved="yes"/>
+  </task-change-set>
   <resource-change-set user="noprom" date="2016-04-26T02:17:14.089Z" timestamp="2016-04-26T02:17:14.089Z">
     <change idref="r2" to="r-1" to-position="1" resolved="yes">
       <change idref="r2" attribute="name" type="string" to="张庭瑞"/>
